@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
   <main>
-    <div className="container mx-auto">Projects</div>
+    <div>
+      <Projects/>
+    </div>
 
   </main>
   );

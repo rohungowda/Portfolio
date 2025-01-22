@@ -13,7 +13,7 @@ const Socials = () => {
     return (<div className="flex gap-6">
         {socials.map((item,index) =>{
         return (<Link key={index} href={item.path} target="_blank" rel="noopener noreferrer"
-                className="w-9 h-9 border rounded-full flex justify-center items-center bg-slate-900">
+                className="w-9 h-9 border rounded-full flex justify-center items-center bg-slate-900 text-white">
             {item.icon}
             </Link>);
         })}

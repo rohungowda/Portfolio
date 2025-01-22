@@ -1,9 +1,12 @@
-import Image from "next/image";
+
+import Experiences from '@/components/Experiences'
 
 export default function Home() {
   return (
   <main>
-    <div className="container mx-auto">Experience</div>
+    <div>
+      <Experiences/>
+    </div>
 
   </main>
   );
